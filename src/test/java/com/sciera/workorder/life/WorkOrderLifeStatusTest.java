@@ -41,7 +41,7 @@ public class WorkOrderLifeStatusTest {
         
         new AssertDataFrame(calculateChanges).
             hasRows(2).
-            containsRowWhere("Customer_ID = '%s' AND Date = '%s'", "1","2017-01-12");
+            containsRowWhere("Customer_ID = '%s' AND Date = '%s'", "1","2017-01-11");
         calculateChanges.show();
         
     }
